@@ -2,7 +2,7 @@
 
 ## Overview
 
-This Django application is designed to manage dining place bookings. It includes functionalities for user registration, login, dining place management, and booking. The project uses Django's REST framework for API endpoints and includes encryption for stored notes.
+This Node application is designed to manage dining place bookings. It includes functionalities for user registration, login, dining place management, and booking. The project uses Express REST framework for API endpoints and includes encryption for stored notes.
 
 ## Features
 
@@ -14,42 +14,16 @@ This Django application is designed to manage dining place bookings. It includes
 
 ## Requirements
 
-- Python 3.10+
-- Django 5.0+
-- Django REST framework
-- `phonenumber_field` library
-- `Poetry` for dependency management
+- Node.JS
+- Express.JS
+- bcrypt
+- JWT
+- Mongoose
 
-## Setup
-
-### 1. Clone the Repository
+### Clone the Repository
 
 ```bash
-git clone https://github.com/Reuben-Stephen-John/WorkIndia-API-Challenge.git
-```
-
-### 2. Install Dependencies
-
-```bash
-poetry install
-```
-
-### 3. Apply Migrations
-
-```bash
-poetry run python manage.py migrate
-```
-
-### 4. Create Superuser (For Admin Panel)
-
-```bash
-poetry run python manage.py createsuperuser
-```
-
-### 5. Run the Development Server
-
-```bash
-poetry run python manage.py runserver
+git clone https://github.com/pawanperla/WORKINDIA.git
 ```
 
 ## API Endpoints
