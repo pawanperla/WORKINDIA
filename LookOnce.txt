@@ -1,0 +1,32 @@
+Format of creating a Restaurant
+
+{
+  "name": "Sample Restaurant",
+  "address": "123 Main St",
+  "phone_no": "123-456-7890",
+  "website": "http://example.com",
+  "operational_hours": {
+    "open_time": "2024-08-30T09:00:00Z",
+    "close_time": "2024-08-30T17:00:00Z"
+  },
+  "booked_slots": []
+}
+
+
+Format of User Sign Up
+
+{
+    "username" : "Pawan Phanieswar",
+    "email" : "abc@xyz.com",
+    "password" : "1234",
+    "role" : "admin",
+    // "role" : "user"
+    "adminKey" : "ADMIN-ONLY"
+}
+
+Format of Login
+
+{
+    "username" : "Pawan Phanieswar",
+    "password" : "1234"
+}
